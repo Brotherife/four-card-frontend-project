@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+}
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --blue: hsl(212, 86%, 64%);
+    --orange: hsl(34, 97%, 64%);
+    --verydarkblue: hsl(234, 12%, 34%);
+    --greyishblue: hsl(229, 6%, 66%);
+    --verylightgray: hsl(0, 0%, 98%);
+}
+
+.section-center {
+    padding: 3rem 2rem;
+    background-color: var(--verylightgray);
+}
+
+h2,
+h3 {
+    color: var(--verydarkblue);
+}
+
+p {
+    color: var(--greyishblue);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+#heading1 {
+    color: var(--greyishblue);
+    font-weight: 200;
+    margin-bottom: 1rem;
+    letter-spacing: 0.06rem;
+}
+
+#heading2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 0.07rem;
+}
+
+.section-title p {
+    width: 260px;
+    margin: auto;
+    text-align: end;
+    letter-spacing: 0.02rem;
+}
+
+.single-card {
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: var(--verylightgray);
+    border-radius: 5px;
+    box-shadow: 0px 7px 9px hsl(229, 6%, 66%);
+}
+
+
+.one {
+    border-top: 3px solid var(--cyan);
+}
+
+.two {
+    border-top: 3px solid var(--red);
+}
+
+.three {
+    border-top: 3px solid var(--orange);
+}
+
+.four {
+    border-top: 3px solid var(--blue);
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.text {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card-img {
+    text-align: right;
+}
+
+@media screen and (min-width:600px) {
+
+    .section-center {
+        padding: 3rem 4rem;
+    }
+
+    .section-title p {
+        width: 450px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .card-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .one,
+    .twoinone,
+    .four {
+        flex: 0 0 calc(28% - 2rem);
+    }
+
+}
