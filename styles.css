@@ -65,6 +65,8 @@ p {
     background-color: var(--verylightgray);
     border-radius: 5px;
     box-shadow: 0px 7px 9px hsl(229, 6%, 66%);
+    width: 300px;
+    Height: 220px;
 }
 
 
