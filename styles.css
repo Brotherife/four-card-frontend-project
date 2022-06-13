@@ -55,7 +55,7 @@ p {
 .section-title p {
     width: 260px;
     margin: auto;
-    text-align: end;
+    text-align: center ;
     letter-spacing: 0.02rem;
 }
 
